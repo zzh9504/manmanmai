@@ -1,0 +1,207 @@
+a {
+  color: black;
+}
+i {
+  font-style: normal;
+}
+img,
+input {
+  vertical-align: middle;
+  border: none;
+}
+body {
+  font-size: .14rem;
+  position: relative;
+  padding-top: .49rem;
+  background: #fff;
+}
+li {
+  list-style: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+input {
+  line-height: normal;
+  border: 0;
+  outline: 0;
+}
+#header {
+  background-color: #ff4e49;
+  display: flex;
+  /* 给父元素设置padding把内容往中间挤  2边如果有图标 使用定位 左边定位在左边 右边定位在右边 */
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
+  width: 100vw;
+  height: 0.45rem;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+#header h4 {
+  margin: 0;
+  width: 2.85rem;
+  text-align: center;
+  line-height: 0.45rem;
+  font-weight: normal;
+}
+#header form {
+  width: 100%;
+  padding-top: 0.05rem;
+}
+#header form input {
+  background-color: #fff;
+  text-align: left;
+  /* 注意默认有一个margin去掉 */
+  margin-bottom: 0;
+  font-size: 0.14rem;
+}
+#header a {
+  width: 0.45rem;
+  height: 0.45rem;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  line-height: 0.45rem;
+  color: #fff;
+}
+#header a:first-child {
+  left: 0;
+  font-size: .28rem;
+}
+#header a:last-child {
+  right: 0;
+}
+#header a img {
+  width: .32rem;
+  height: .32rem;
+}
+/* 底部公共样式 */
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;
+  z-index: 999;
+  background-color: #232a34;
+}
+#footer .footer-top {
+  border-top: .01rem solid #c4c4c4;
+  border-bottom: .01rem solid #c4c4c4;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  display: flex;
+}
+#footer .footer-top a {
+  display: block;
+  width: 30%;
+  height: 100%;
+  font-size: .14rem;
+  text-align: center;
+  border-left: .01rem solid #c4c4c4;
+  color: #fff;
+}
+#footer .footer-top a img {
+  display: inline-block;
+  width: 0.14rem;
+  margin-top: -0.02rem;
+}
+#footer .footer {
+  text-align: center;
+  font-size: .12rem;
+  color: #666;
+  padding: .15rem 0 ;
+}
+#footer .footer > p {
+  font-size: .12rem;
+}
+#footer .footer > p > .red {
+  font-size: .14rem;
+  color: #ff4e49;
+}
+#main .box {
+  max-width: 9.6rem;
+  font-size: .14rem;
+  margin: 0 auto;
+}
+#main .box ul {
+  margin-top: .2rem;
+  width: 100%;
+  height: 100%;
+}
+#main .box ul li {
+  width: 100%;
+  height: 1.28rem;
+}
+#main .box ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#main .box ul li a .tu-left {
+  width: 1rem;
+  height: 1rem;
+  padding-left: .15rem;
+  flex: 1;
+}
+#main .box ul li a .tu-left > img {
+  width: 70%;
+  display: block;
+}
+#main .box ul li a .text-right {
+  width: 100%;
+  height: 100%;
+  padding-right: .1rem;
+  flex: 2;
+}
+#main .box ul li a .text-right .text-title {
+  min-width: .6rem;
+  width: 100%;
+}
+#main .box ul li a .text-right .text-title span:first-of-type {
+  font-size: .15rem;
+  color: #333;
+}
+#main .box ul li a .text-right .text-title span:last-of-type {
+  color: #ff6c00;
+}
+#main .box ul li a .text-jd-l {
+  color: #a1a1a1;
+  font-size: 12px;
+  float: left;
+}
+#main .box ul li a .text-jd-r {
+  color: #a1a1a1;
+  float: right;
+}
+#main .footer-bottom {
+  width: 100%;
+  margin-bottom: 0.43rem;
+}
+#main .footer-bottom .w33 {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+#main .footer-bottom .w33 > a {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#f1f1f1), to(#d4d4d4));
+  box-sizing: border-box;
+  border-bottom: 1px solid #bababa;
+  box-shadow: 0 0 1px #aaa;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 32px;
+  overflow: hidden;
+  padding: 8px 20px;
+}
+#main .footer-bottom .w33 > select {
+  border: 1px solid #bababa;
+  font-size: 16px;
+  padding: 8px 15px;
+  height: 36px;
+  background-color: #dddddd;
+}

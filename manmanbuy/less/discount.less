@@ -1,0 +1,57 @@
+@import "base.less";
+#main {
+    background-color: #fff;
+    .inland-discount-list {
+        max-width: 9.6rem;
+       ul{
+        display: table;
+        width: 100%;
+        white-space: normal;
+        font-size: 0;
+        box-sizing: border-box;
+        .border-img {
+            width: 50%;
+            float: left;
+            display: table-cell;
+            padding: .1rem 0 0 .1rem;
+            background: #fff;
+            border: .01rem solid #eee;
+        }
+        .img>img {
+            width: 1.4rem;
+            height: 1.4rem;
+        }
+        .title, .subtit {
+            padding: 0 .08rem;
+            font-size: .14rem;
+            text-align: left;
+            text-align-last: left;
+            line-height: .18rem;
+            word-break: break-all;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .title{
+            color: #333;
+            height: .36rem;
+            -webkit-line-clamp: 2;
+            font-weight: 7rem;
+            font-family: Arial;
+        }
+        .subtit{
+            color: #ff6c00;
+            height: 18px;
+            -webkit-line-clamp: 1;
+            margin-top: 8px;
+        }
+        .info{
+            padding: 6px 8px;
+            font-size: 12px;
+            line-height: 24px;
+            text-align: left;
+            color: #a1a1a1;
+        }
+       }
+    }
+}

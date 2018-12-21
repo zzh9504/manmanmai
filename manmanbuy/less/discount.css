@@ -1,0 +1,151 @@
+img,
+input {
+  vertical-align: middle;
+  border: none;
+}
+body {
+  font-size: .14rem;
+  position: relative;
+  padding-top: .49rem;
+  background: #fff;
+}
+li {
+  list-style: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+input {
+  line-height: normal;
+  border: 0;
+  outline: 0;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+#header {
+  background-color: #ff4e49;
+  display: flex;
+  /* 给父元素设置padding把内容往中间挤  2边如果有图标 使用定位 左边定位在左边 右边定位在右边 */
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
+  width: 100vw;
+  height: 0.45rem;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+#header h4 {
+  margin: 0;
+  width: 2.85rem;
+  text-align: center;
+  line-height: 0.45rem;
+  font-weight: normal;
+}
+#header form {
+  width: 100%;
+  padding-top: 0.05rem;
+}
+#header form input {
+  background-color: #fff;
+  text-align: left;
+  /* 注意默认有一个margin去掉 */
+  margin-bottom: 0;
+  font-size: 0.14rem;
+}
+#header a {
+  width: 0.45rem;
+  height: 0.45rem;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  line-height: 0.45rem;
+  color: #fff;
+}
+#header a:first-child {
+  left: 0;
+  font-size: .32rem;
+}
+#header a:last-child {
+  right: 0;
+}
+#header a img {
+  width: .32rem;
+  height: .32rem;
+}
+#main {
+  background-color: #fff;
+}
+#main .inland-discount-list {
+  max-width: 9.6rem;
+}
+#main .inland-discount-list ul {
+  display: table;
+  width: 100%;
+  white-space: normal;
+  font-size: 0;
+  box-sizing: border-box;
+}
+#main .inland-discount-list ul .border-img {
+  width: 50%;
+  float: left;
+  display: table-cell;
+  padding: .1rem 0 0 .1rem;
+  background: #fff;
+  border: .01rem solid #eee;
+}
+#main .inland-discount-list ul .img > img {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+#main .inland-discount-list ul .title,
+#main .inland-discount-list ul .subtit {
+  padding: 0 .08rem;
+  font-size: .14rem;
+  text-align: left;
+  text-align-last: left;
+  line-height: .18rem;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+#main .inland-discount-list ul .title {
+  color: #333;
+  height: .36rem;
+  -webkit-line-clamp: 2;
+  font-weight: 7rem;
+  font-family: Arial;
+}
+#main .inland-discount-list ul .subtit {
+  color: #ff6c00;
+  height: 18px;
+  -webkit-line-clamp: 1;
+  margin-top: 8px;
+}
+#main .inland-discount-list ul .info {
+  padding: 6px 8px;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: left;
+  color: #a1a1a1;
+}
