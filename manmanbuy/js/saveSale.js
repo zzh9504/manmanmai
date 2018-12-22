@@ -5,10 +5,11 @@ window.onload = function () {
         data: {
             productid: t
         },
-        url: baseUrl + "/api/getmoneyctrlproduct",
+        url: "http://localhost:9090/api/getmoneyctrlproduct",
         success: function (a) {
             var e = template("sales", a);
-            console.log(e), $(".sale").html(e)
+            console.log(e),
+            $(".sale").html(e)
         }
     })
 };

@@ -1,0 +1,301 @@
+a {
+  color: black;
+}
+i {
+  font-style: normal;
+}
+img,
+input {
+  vertical-align: middle;
+  border: none;
+}
+body {
+  font-size: .14rem;
+  position: relative;
+  padding-top: .49rem;
+  background: #fff;
+}
+li {
+  list-style: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+input {
+  line-height: normal;
+  border: 0;
+  outline: 0;
+}
+#header {
+  background-color: #ff4e49;
+  display: flex;
+  /* 给父元素设置padding把内容往中间挤  2边如果有图标 使用定位 左边定位在左边 右边定位在右边 */
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
+  width: 100vw;
+  height: 0.45rem;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+#header h4 {
+  margin: 0;
+  width: 2.85rem;
+  text-align: center;
+  line-height: 0.45rem;
+  font-weight: normal;
+}
+#header form {
+  width: 100%;
+  padding-top: 0.05rem;
+}
+#header form input {
+  background-color: #fff;
+  text-align: left;
+  /* 注意默认有一个margin去掉 */
+  margin-bottom: 0;
+  font-size: 0.14rem;
+}
+#header a {
+  width: 0.45rem;
+  height: 0.45rem;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  line-height: 0.45rem;
+  color: #fff;
+}
+#header a:first-child {
+  left: 0;
+  font-size: .28rem;
+}
+#header a:last-child {
+  right: 0;
+}
+#header a img {
+  width: .32rem;
+  height: .32rem;
+}
+/* 底部公共样式 */
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;
+  z-index: 999;
+  background-color: #232a34;
+}
+#footer .footer-top {
+  border-top: .01rem solid #c4c4c4;
+  border-bottom: .01rem solid #c4c4c4;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  display: flex;
+}
+#footer .footer-top a {
+  display: block;
+  width: 30%;
+  height: 100%;
+  font-size: .14rem;
+  text-align: center;
+  border-left: .01rem solid #c4c4c4;
+  color: #fff;
+}
+#footer .footer-top a img {
+  display: inline-block;
+  width: 0.14rem;
+  margin-top: -0.02rem;
+}
+#footer .footer {
+  text-align: center;
+  font-size: .12rem;
+  color: #666;
+  padding: .15rem 0 ;
+}
+#footer .footer > p {
+  font-size: .12rem;
+}
+#footer .footer > p > .red {
+  font-size: .14rem;
+  color: #ff4e49;
+}
+/* 火箭样式 */
+#rtt {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 45px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 800;
+  color: #fff;
+}
+.font-icon {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+#main .container .cu-content {
+  padding: 0 .1rem;
+  background-color: #fff;
+}
+#main .container .cu-content h3 {
+  font-size: .18rem;
+  margin: .1rem auto .05rem;
+  font-weight: 800;
+  text-align: left;
+  text-align-last: left;
+  word-break: break-all;
+  color: #5a5a5a;
+  line-height: normal;
+}
+#main .container .cu-content h4 {
+  color: #ff6c00;
+  font-size: .15rem;
+}
+#main .container .cu-content .info {
+  margin: .12rem auto;
+  color: #999;
+  font-size: .12rem;
+  line-height: .24rem;
+}
+#main .container .cu-content .info span {
+  color: #999;
+  vertical-align: middle;
+}
+#main .container .cu-content .info span .mall {
+  margin: 0 .04rem;
+}
+#main .container .cu-content .content .picwrap {
+  width: 1.2rem;
+  float: right;
+  margin: .12rem auto auto .1rem;
+  overflow: hidden;
+}
+#main .container .cu-content .content .picwrap img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+#main .container .cu-content .content .conn {
+  font-size: .16rem;
+  line-height: .24rem;
+  word-break: break-all;
+  color: #606060;
+  padding-bottom: .2rem;
+}
+#main .container .cu-content .content .conn p {
+  font-size: .16rem;
+  color: #606060;
+  margin: .06rem auto;
+}
+#main .container .cu-content .content .conn img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+#main .container .cu-content .content .golink a {
+  display: block;
+  height: .3rem;
+  border-radius: .04rem;
+  line-height: .3rem;
+  margin: .2rem .1rem;
+  background: #ff9000;
+  color: #fff;
+  text-align: center;
+  font-size: .14rem;
+}
+#main .container .cu-content-p1 {
+  background-color: #fff;
+}
+#main .container .cu-content-p1 .tit {
+  font-size: .16rem;
+  padding: .06rem .08rem;
+}
+#main .container .cu-content-p1 .reply {
+  padding: .06rem .08rem;
+}
+#main .container .cu-content-p1 .reply .form {
+  width: 98%;
+  margin: 0 auto;
+  background: #fff;
+  border: .02rem solid #eceae8;
+  padding: .04rem 0 0 .04rem;
+  border-radius: .02rem;
+  position: relative;
+}
+#main .container .cu-content-p1 .reply .form textarea {
+  width: 100%;
+  height: .68rem;
+  resize: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 0 none;
+  line-height: .22rem;
+  font-size: .14rem;
+  color: #666;
+  outline: 0;
+}
+#main .container .cu-content-p1 .reply .form input {
+  outline: none;
+  -webkit-appearance: none;
+  border: none;
+}
+#main .container .cu-content-p1 .reply .form .ctr1 {
+  height: .36rem;
+  background: #fbfbfb;
+  margin-left: -0.04rem;
+  border-top: .01rem solid #f2f2f2;
+}
+#main .container .cu-content-p1 .reply .form .ctr1 input {
+  position: absolute;
+  width: 1rem;
+  height: .39rem;
+  right: -0.02rem;
+  bottom: -0.02rem;
+  background: #ff841d;
+  border: .02rem solid #ff841d;
+  border-radius: 0 0 .02rem 0;
+  color: #fff;
+  font-size: .16rem;
+  outline: 0;
+}
+#main .container .cu-content-p1 .tit {
+  font-size: .16rem;
+  padding: .06rem .08rem;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/*返回顶部*/
+#rtt {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 45px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 800;
+  color: #fff;
+  display: none;
+}

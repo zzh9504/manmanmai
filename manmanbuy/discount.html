@@ -96,7 +96,7 @@
         <div class="footer-top">
             <a href="#">登录</a>
             <a href="#">注册</a>
-            <a href="#">首页</a>
+            <a href="index.html">首页</a>
         </div>
         <div class="footer">
             <p>
@@ -111,7 +111,7 @@
 
     <script id="productList" type="text/html">
         <ul> <%for(var i=0;i< result.length;i++){%> <li class="border-img">
-            <a href="discount-product.html?productid=<%=result[i].productId%>">
+            <a href="discoutProduct.html?productid=<%=result[i].productId%>">
                 <div class="img"> <%=#result[i].productImg%> </div>
                 <p class="title"><%=result[i].productName%></p>
                 <p class="subtit"><%=result[i].productPrice%></p>

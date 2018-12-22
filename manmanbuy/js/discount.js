@@ -1,8 +1,10 @@
 $.ajax({
     type: "get",
-    url: baseUrl + "/api/getinlanddiscount",
-    data: {},
+    url:  "http://localhost:9090/api/getinlanddiscount",
+    
     success: function (t) {
+        console.log(t);
+        
         var html = template("productList", t);
         $("ul").html(html)
     }
